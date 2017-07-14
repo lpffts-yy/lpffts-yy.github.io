@@ -276,10 +276,28 @@ text-transform: uppercase;
 #little .container{
     padding-bottom: 30px;
 }
-
 /*PRO*/
 #PRO{
     background-color: rgb(255,185,114);
+}
+#comingsoon{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#comingsoont{
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+#comingsoont h2{
+	color: #010101;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+}
+#comingsoont p{
+	color: #404040;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
 /*Footer*/
