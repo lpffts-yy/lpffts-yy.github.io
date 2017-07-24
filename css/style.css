@@ -108,13 +108,16 @@ margin-top: -40px;
 	}
 }
 .single_image{
-	margin-right: 3px;
+    margin-left: 1.5px;
+	margin-right: 1.5px;
+    margin-bottom: 3px;
 	position: relative;
 	transition: all 1s;
 }
 .single_image img{
 	width: 100%;
-
+    height: 300px;
+    object-fit: cover;
 }
 .single_image:hover div.image_overlay{
 	opacity: 1;
@@ -136,7 +139,7 @@ opacity: 0;
 position: absolute;
 top: 5px;
 right: 15px;
-color: #000;
+color: #fff;
 text-decoration: none;
 text-transform: uppercase;	
 }
@@ -294,6 +297,7 @@ text-transform: uppercase;
 #ge .container{
     padding-bottom: 20px;
     padding-top: 50px;
+    color:#eee;
 }
 #cms3{
     background: url(../images/bgody.jpg);
@@ -302,15 +306,15 @@ text-transform: uppercase;
 #cms3 .container{
     padding-bottom: 20px;
     padding-top: 50px;
+    color: #ddd;
 }
 #ody{
     padding-top:190px;
-    padding-bottom: 20px;
-    color: #ddd;
+    padding-bottom: 20px;  
 }
 #boardgame{
     background: url(../images/boardgamebg.jpg);
-   
+    background-color: #fff4a4;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -319,7 +323,68 @@ text-transform: uppercase;
     padding-top: 0px;
 }
 #boarddes{
-    padding-top: 400px;
+    padding-top: 300px;
+}
+#artdi{
+    background: url(../images/bgartdi.jpg);
+    background-size: contain;
+}
+
+#artdi .container{
+    padding-bottom: 10px;
+    color: #000;
+}
+#lastnight{
+    padding-top:40px;
+}
+#graphic{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#graphic .row{
+    padding-bottom: 20px;
+    color: #fff;
+}
+#res{
+    background-color: #ddd;
+    padding-bottom: 20px;
+    padding-top: 55px;
+}
+#res h2{
+    padding-bottom: 30px;
+}
+#rev{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #eee;
+}
+#rev h4{
+    padding-bottom: 30px;
+}
+#mad{
+    background-color: #ddd;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#mad h4{
+    padding-bottom: 20px;
+}
+#mad img{
+    padding-top: 150px;
+}
+#barber{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #eee;
+}
+#barber h4{
+    padding-bottom: 20px;
+}
+#barber img{
+    padding-top: 20px;
 }
 #comingsoon{
 	padding-top: 50px;
