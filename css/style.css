@@ -11,7 +11,6 @@ a{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
 }
-
 /*Header*/
 .navbar-default .navbar-nav>li>a {
 color: #777;
@@ -346,6 +345,7 @@ text-transform: uppercase;
     padding-bottom: 20px;
     color: #fff;
 }
+
 #res{
     background-color: #ddd;
     padding-bottom: 20px;
@@ -353,6 +353,15 @@ text-transform: uppercase;
 }
 #res h2{
     padding-bottom: 30px;
+}
+#food{
+    overflow: scroll;
+    background-color: #999;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#food h2{
+    color: #eee;
 }
 #rev{
     background-color: #555;
