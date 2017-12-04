@@ -354,6 +354,22 @@ text-transform: uppercase;
 #res h2{
     padding-bottom: 30px;
 }
+#lifestyle{
+    background-color: #ddd;
+    padding-bottom: 20px;
+    padding-top: 55px;
+}
+#lifestyle h2{
+    padding-bottom: 30px;
+}
+#office{
+    background-color: #ddd;
+    padding-bottom: 20px;
+    padding-top: 55px;
+}
+#office h2{
+    padding-bottom: 30px;
+}
 #food{
     overflow: scroll;
     background-color: #999;
@@ -372,12 +388,38 @@ text-transform: uppercase;
 #rev h4{
     padding-bottom: 30px;
 }
+#halloween{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #eee;
+}
+#halloween h4{
+    padding-bottom: 30px;
+}
+#drama{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #eee;
+}
+#drama h4{
+    padding-bottom: 30px;
+}
 #mad{
     background-color: #ddd;
     padding-bottom: 20px;
     padding-top: 40px;
 }
 #mad h4{
+    padding-bottom: 20px;
+}
+#fashion{
+    background-color: #ddd;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#fashion h4{
     padding-bottom: 20px;
 }
 #mad img{
@@ -390,6 +432,15 @@ text-transform: uppercase;
     color: #eee;
 }
 #barber h4{
+    padding-bottom: 20px;
+}
+#cafe{
+    background-color: #555;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #eee;
+}
+#cafe h4{
     padding-bottom: 20px;
 }
 #barber img{
